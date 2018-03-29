@@ -7,5 +7,16 @@ venv
 #Ignore SQLite database files
 *.sqlite3
 
+#Ignore test artifacts
+src/.coverage
+src/*.xml
+
+#Ignore eggs
+scr/*egg-info
+
+#Ignore build and test artifacts
+target
+reports
+
 #Ignore Visual Studio Code files
 .vscode
